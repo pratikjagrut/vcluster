@@ -1,7 +1,7 @@
 version: v1beta11
 vars:
   - name: SYNCER_IMAGE
-    value: ghcr.io/loft-sh/loft-enterprise/dev-vcluster
+    value: ghcr.io/pratikjagrut/vcluster
   - name: K3S_IMAGE
     value: rancher/k3s:v1.23.5-k3s1
 images:
