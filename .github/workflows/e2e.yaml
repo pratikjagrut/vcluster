@@ -7,14 +7,14 @@ on:
     types: [opened,synchronize,reopened,edited]
     branches:
       - main 
-    paths:
-      - "Dockerfile"
-      - "**.go"
-      - "!**_test.go" # exclude test files to ignore unit test changes
-      - "e2e/**_test.go" # include test files in e2e again
-      - ".github/workflows/e2e-tests.yaml"
-      - "charts/**"
-      - "manifests/**"
+#     paths:
+#       - "Dockerfile"
+#       - "**.go"
+#       - "!**_test.go" # exclude test files to ignore unit test changes
+#       - "e2e/**_test.go" # include test files in e2e again
+#       - ".github/workflows/e2e-tests.yaml"
+#       - "charts/**"
+#       - "manifests/**"
 
 env:
   REGISTRY: ghcr.io
